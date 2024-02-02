@@ -18,5 +18,6 @@ public class Application {
 		if (!new File(Constants.BOOK_TABLE_FILE).exists())
 			BookTableModel.createFile();
 		SpringApplication.run(Application.class, args);
+		System.out.println("started");
 	}
 }
